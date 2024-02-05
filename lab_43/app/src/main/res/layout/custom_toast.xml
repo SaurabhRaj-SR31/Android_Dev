@@ -1,0 +1,29 @@
+<!-- res/layout/custom_toast.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for the version icon -->
+    <ImageView
+        android:id="@+id/imageVersionIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:scaleType="fitCenter"
+
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- TextView for the version name -->
+    <TextView
+        android:id="@+id/textVersionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#142EBC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

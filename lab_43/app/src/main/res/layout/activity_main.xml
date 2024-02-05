@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnMarshmallow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marshmallow"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnNougat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nougat"
+        android:layout_below="@id/btnMarshmallow"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnOreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oreo"
+        android:layout_below="@id/btnNougat"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnPie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pie"
+        android:layout_below="@id/btnOreo"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

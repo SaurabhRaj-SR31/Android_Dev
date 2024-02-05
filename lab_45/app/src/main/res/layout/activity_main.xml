@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <CheckBox
+        android:id="@+id/checkBoxPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizza"
+        android:checked="false"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBurger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:checked="false"
+        android:layout_below="@id/checkBoxPizza"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPasta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasta"
+        android:checked="false"
+        android:layout_below="@id/checkBoxBurger"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxSalad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salad"
+        android:checked="false"
+        android:layout_below="@id/checkBoxPasta"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBiryani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Biryani"
+        android:checked="false"
+        android:layout_below="@id/checkBoxSalad"
+        android:layout_marginBottom="8dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTandooriChicken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tandoori Chicken"
+        android:checked="false"
+        android:layout_below="@id/checkBoxBiryani"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Order"
+        android:layout_below="@id/checkBoxTandooriChicken"
+        android:layout_marginTop="16dp" />
+</RelativeLayout>
